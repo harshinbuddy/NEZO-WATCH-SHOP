@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav{
+	width:100%;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:10px 0;
+	background-color: grey;
+	height:20px;
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+	margin-right:10px;
+
+}
+.g{
+
+	font-size:20px;
+	font-style:italic;
+	color:white;
+	margin-right:10px;
+
+}
+nav ul{
+	list-style: none;
+	width:100%;
+	text-align: right;
+	padding-right: 60px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 10px 20px;
+}
+nav ul li a{
+	color:red;
+	text-decoration:none;
+}
+.btn{
+	display: flex;
+	align-items:center;
+	padding: 10px 20px;
+	border: 0;
+	outline: 0;
+	border-radius: 5px;
+	background: orangered;
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+
+}
+.btn img{
+	width:20px;
+	margin-right: 10px;
+}

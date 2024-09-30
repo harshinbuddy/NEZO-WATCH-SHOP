@@ -1,0 +1,16 @@
+nav{
+    display: in-block;
+    text-decoration-style:none;
+    border: 2px solid;
+    width: 300px;
+    height: 30px;
+    padding-top:30px;
+    font-size:20px;
+    background:violet;
+    margin:5px;
+
+}
+a:hover{
+    background-color:red;
+    width:300px;
+}
